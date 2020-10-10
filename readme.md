@@ -36,7 +36,7 @@ Then you can run this project by:
 2. You can work together to build a function with your friend to help you build your feature
 3. Push to your own branch, and create your own branch by format
    ```
-    YOUR_NICKNAME:YOUR_FEATURE
+    YOUR_FEATURE:YOUR_NICKNAME
    ```
 4. Be consistent! Always compare your solution to others if their code is
    - Shorter than yours
@@ -46,8 +46,6 @@ Then you can run this project by:
 ## If you're done creating your feature
 1. Create a Pull Request to master branch, consult to this: [How to create a PR (Pull Request)](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 2. Write what you do as message in PR
-
-
 
 ## Bug hunt! 
 1. You can ATTACK your friend by telling which line of code that will prone to bugs in our Telegram group
