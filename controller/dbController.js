@@ -13,7 +13,7 @@ let db;
     const path = require('path').resolve()
     const dir = await readdir(path)
     if (!dir.includes('db.json'))
-      fs.writeFile(path + 'db.json', '', () => null)
+      fs.writeFile(path + 'db.json', '', () => 1)
 
     const adapter = new FileSync('db.json')
     db = low(adapter)
