@@ -43,10 +43,16 @@ Then you can run this project by:
    - Much simpler to read than yours
    - Prone to bug than yours
 
+## If you're done creating your feature
+1. Create a Pull Request to master branch, consult to this: [How to create a PR (Pull Request)](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+2. Write what you do as message in PR
+
+
+
 ## Bug hunt! 
-1. You can ATTACK your friend by telling which line of code that will prone to bugs
+1. You can ATTACK your friend by telling which line of code that will prone to bugs in our Telegram group
 2. Remember! Our enemy is bugs! If their solution is different but it gets the job done without bug, DON'T EVER COMMENT IT
-3. Every ATTACK will count in leaderboard (in this readme)
+3. Every successful ATTACK will count in leaderboard (in this readme)
 
 ## Leaderboard
 1. Nanda (1 points)
