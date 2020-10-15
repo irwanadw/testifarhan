@@ -2,19 +2,80 @@
 #### This will be our backend app to fulfill our frontend and mobile app needs!
 ----------
 ## Features
-- CRUD notes
-- CRUD transactions
-- CRUD contacts
-- Read promo
-- Add, update & delete promo with admin route
-- Read weather info
-- Add, update & delete weather info with admin route
-- Read news
-- Add, update & delete news with admin route
-- Add & update credits
-- Update credits with admin route
-- Read location infos
-- Add, update & delete location infos with admin route
+- CRUD notes (/notes)
+  ```javascript
+  // Data structure
+  const note = {
+    note: "Read book",
+    date: "2020-10-16"
+  }
+  ```
+- CRUD transactions (/transactions)
+  ```javascript
+  // Data structure
+  const transaction = {
+    fromPhone: "+6281214129",
+    toPhone: "+6281214129",
+    nominal: "2000",
+    date: "2020-10-16"
+  }
+  ```
+- CRUD contacts (/contacts)
+  ```javascript
+  // Data structure
+  const note = {
+    contactName: "Mark Styler",
+    phone: "+6281214129"
+  }
+  ```
+- Read promo (/promo)
+- CRUD promo with admin route (/admin/promo)
+  ```javascript
+  // Data structure
+  const promo = {
+    promoName: "Buy 2 get 1",
+    promoStartDate: "2020-10-13",
+    endStartDate: "2020-10-16"
+  }
+  ```
+- Read weather info (/weather)
+- CRUD weather info with admin route (/admin/weather)
+  ```javascript
+  // Data structure
+  const weather = {
+    temperature: "34",
+    date: "2020-10-16"
+  }
+  ```
+- Read news (/news)
+- CRUD news with admin route (/admin/news)
+  ```javascript
+  // Data structure
+  const news = {
+    header: "Teams",
+    date: "2020-10-16"
+  }
+  ```
+- Add & update credits (/credits)
+- Update credits with admin route (/admin/credits)
+  ```javascript
+  // Data structure
+  const creditLog = {
+    debt: "2000",
+    credit: "0",
+    currentCredit: "2000",
+    date: "2020-10-16"
+  }
+  ```
+- Read location infos (/location)
+- CRUD location infos with admin route (/admin/locations)
+  ```javascript
+  // Data structure
+  const locationInfo = {
+    name: "California",
+    km2: "423,970"
+  }
+  ```
 
 ## How to run the project
 You need to initiate the project first by typing in the terminal
@@ -36,7 +97,7 @@ Then you can run this project by:
 2. You can work together to build a function with your friend to help you build your feature
 3. Push to your own branch, and create your own branch by format
    ```
-    YOUR_FEATURE:YOUR_NICKNAME
+    YOUR_NICKNAME:YOUR_FEATURE
    ```
 4. Be consistent! Always compare your solution to others if their code is
    - Shorter than yours
@@ -48,9 +109,9 @@ Then you can run this project by:
 2. Write what you do as message in PR
 
 ## Bug hunt! 
-1. You can ATTACK your friend by telling which line of code that will prone to bugs in our Telegram group
+1. You can REPORT your friend by telling which line of code that will prone to bugs in our Telegram group
 2. Remember! Our enemy is bugs! If their solution is different but it gets the job done without bug, DON'T EVER COMMENT IT
-3. Every successful ATTACK will count in leaderboard (in this readme)
+3. Every successful REPORT will count in leaderboard (in this readme)
 
 ## Leaderboard
 1. Nanda (1 points)
