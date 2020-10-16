@@ -19,7 +19,6 @@ let db;
     db = low(adapter)
     // we will call each key in lowdb object as "table"
     db.defaults({
-      // 👇 table names
       notes: [],
       transactions: [],
       contacts: [],
