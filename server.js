@@ -1,11 +1,11 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const rootRoute = require('./routes/rootRoute')
-const getPromo = require('./routes/admin/promo/getPromo')
+const getPromos = require('./routes/admin/promos/getPromo')
 
 const app = express()
 app.use(rootRoute)
-app.use(getPromo)
+app.use(getPromos)
 
 app.use(bodyParser.json())
 
