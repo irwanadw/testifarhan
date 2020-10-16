@@ -40,10 +40,18 @@ let db;
  * @param {String} tableName table name
  * @returns {Object} data
  */
-function get(tableName) {
-  return db
-    .get(tableName)
-    .value()
+function get(tableName, id) {
+  const parsedId = parseInt(id)
+  if (parsedId) {
+    return db
+      .get(tableName)
+      .find({ id: parsedId })
+      .value()
+  } else {
+    return db
+      .get(tableName)
+      .value()
+  }
 }
 
 /**
