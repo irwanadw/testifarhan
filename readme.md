@@ -2,7 +2,7 @@
 #### This will be our backend app to fulfill our frontend and mobile app needs!
 ----------
 ## Features
-- CRUD notes (/notes)
+- CRUD notes (/notes) (☀️ irfan)
   ```javascript
   // Data structure
   const note = {
@@ -10,7 +10,7 @@
     date: "2020-10-16"
   }
   ```
-- CRUD transactions (/transactions)
+- CRUD transactions (/transactions) (☀️ daniel)
   ```javascript
   // Data structure
   const transaction = {
@@ -20,7 +20,7 @@
     date: "2020-10-16"
   }
   ```
-- CRUD contacts (/contacts)
+- CRUD contacts (/contacts) (☀️ fitrah)
   ```javascript
   // Data structure
   const note = {
@@ -28,8 +28,8 @@
     phone: "+6281214129"
   }
   ```
-- Read promo (/promo)
-- CRUD promo with admin route (/admin/promo)
+- Read promo (/promo) (☀️ agus rifai)
+- CRUD promo with admin route (/admin/promo) (☀️ irwan)
   ```javascript
   // Data structure
   const promo = {
@@ -38,8 +38,8 @@
     endStartDate: "2020-10-16"
   }
   ```
-- Read weather info (/weather)
-- CRUD weather info with admin route (/admin/weather)
+- Read weather info (/weather) (☀️ jul)
+- CRUD weather info with admin route (/admin/weather) (☀️ vien)
   ```javascript
   // Data structure
   const weather = {
@@ -47,8 +47,8 @@
     date: "2020-10-16"
   }
   ```
-- Read news (/news)
-- CRUD news with admin route (/admin/news)
+- Read news (/news) (☀️ natan)
+- CRUD news with admin route (/admin/news) (☀️ fadly)
   ```javascript
   // Data structure
   const news = {
@@ -56,8 +56,8 @@
     date: "2020-10-16"
   }
   ```
-- Add & update credits (/credits)
-- Update credits with admin route (/admin/credits)
+- Add & update credits (/credits) (☀️ agus)
+- Update credits with admin route (/admin/credits) (☀️ sudi)
   ```javascript
   // Data structure
   const creditLog = {
@@ -67,8 +67,8 @@
     date: "2020-10-16"
   }
   ```
-- Read location infos (/location)
-- CRUD location infos with admin route (/admin/locations)
+- Read location infos (/location) (☀️ lingga)
+- CRUD location infos with admin route (/admin/locations) (☀️ septian)
   ```javascript
   // Data structure
   const locationInfo = {
