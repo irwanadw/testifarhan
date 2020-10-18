@@ -12,7 +12,7 @@ app.get('/admin/promos', (req, res) => {
             res.status(404).send("ID not found. Please, enter a valid ID! ");
         }
     } else {
-        res.status(404).send("You must enter an ID which is a number!");
+        res.status(400).send("You must enter an ID which is a number!");
     }
 })
 

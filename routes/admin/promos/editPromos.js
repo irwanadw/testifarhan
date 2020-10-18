@@ -2,17 +2,18 @@ const express = require('express')
 const db = require('../../../controller/dbController')
 const app = express.Router()
 
-app.delete('/admin/promos', (req, res) => {
-    id = Number(req.query.id);
-
+app.patch('/admin/promos', (req, res) => {
+    body = req.body
+    id = Number(body.id)
+    parsedId = parseInt(id)
     if (!isNaN(id)) {
-        isIdAvailable = db.get('promos', id);
+        isIdAvailable = db.get('promos', id)
 
         if (isIdAvailable) {
-            db.remove('promos', id);
-            res.send('ID has been deleted');
+            db.edit('promos', id, body)
+            res.send(body)
         } else {
-            res.status(404).send("ID not found. Please, enter a valid ID!");
+            res.status(404).send("Data not Found")
         }
     } else {
         res.status(400).send("You must enter an ID which is a number!");
