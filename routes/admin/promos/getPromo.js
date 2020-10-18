@@ -9,10 +9,10 @@ app.get('/admin/promos', (req, res) => {
         if (getbyId) {
             res.send(getbyId);
         } else {
-            res.status(404).send("Data tidak ditemukan ");
+            res.status(404).send("ID not found. Please, enter a valid ID! ");
         }
     } else {
-        res.status(404).send("Data tidak ditemukan ");
+        res.status(404).send("You must enter an ID which is a number!");
     }
 })
 
